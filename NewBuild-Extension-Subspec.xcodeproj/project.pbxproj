@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32D13324CC14CDAD26C7FFC7 /* Pods_MessageExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82569917D305146E1FA77FFC /* Pods_MessageExtension.framework */; };
-		590516DBB4532B29192AA163 /* Pods_NewBuild_Extension_Subspec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E3B59AAEBF6F4DC00D289F /* Pods_NewBuild_Extension_Subspec.framework */; };
+		DE0A600C21E1334A00E98926 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED4C51621E11B67006DABA2 /* TodayViewController.m */; };
 		DE747C09217A9C560050D749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE747C08217A9C560050D749 /* AppDelegate.m */; };
 		DE747C0C217A9C560050D749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE747C0B217A9C560050D749 /* ViewController.m */; };
 		DE747C0F217A9C560050D749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE747C0D217A9C560050D749 /* Main.storyboard */; };
@@ -21,6 +20,9 @@
 		DE747C39217A9C8D0050D749 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE747C37217A9C8D0050D749 /* MainInterface.storyboard */; };
 		DE747C3B217A9C8E0050D749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE747C3A217A9C8E0050D749 /* Assets.xcassets */; };
 		DE747C3F217A9C8E0050D749 /* MessageExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE747C2F217A9C8D0050D749 /* MessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DED4C51321E11B67006DABA2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED4C51221E11B67006DABA2 /* NotificationCenter.framework */; };
+		DED4C51A21E11B67006DABA2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED4C51821E11B67006DABA2 /* MainInterface.storyboard */; };
+		DED4C51E21E11B67006DABA2 /* paultoday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DED4C51121E11B67006DABA2 /* paultoday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,13 @@
 			remoteGlobalIDString = DE747C2E217A9C8D0050D749;
 			remoteInfo = MessageExtension;
 		};
+		DED4C51C21E11B67006DABA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE747BFC217A9C560050D749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED4C51021E11B67006DABA2;
+			remoteInfo = paultoday;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				DED4C51E21E11B67006DABA2 /* paultoday.appex in Embed App Extensions */,
 				DE747C3F217A9C8E0050D749 /* MessageExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -55,12 +65,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0CFC5E6E7C99F7AD86DBE2DE /* Pods-MessageExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageExtension/Pods-MessageExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		1718BBEE973546D472C3990B /* Pods-NewBuild-Extension-Subspec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewBuild-Extension-Subspec.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewBuild-Extension-Subspec/Pods-NewBuild-Extension-Subspec.release.xcconfig"; sourceTree = "<group>"; };
-		55E3B59AAEBF6F4DC00D289F /* Pods_NewBuild_Extension_Subspec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewBuild_Extension_Subspec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69A83F9A9EA139F3F1C10237 /* Pods-NewBuild-Extension-Subspec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewBuild-Extension-Subspec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewBuild-Extension-Subspec/Pods-NewBuild-Extension-Subspec.debug.xcconfig"; sourceTree = "<group>"; };
-		6E8509016D15054C2CE7B30B /* Pods-MessageExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessageExtension/Pods-MessageExtension.release.xcconfig"; sourceTree = "<group>"; };
-		82569917D305146E1FA77FFC /* Pods_MessageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE747C04217A9C560050D749 /* NewBuild-Extension-Subspec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewBuild-Extension-Subspec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE747C07217A9C560050D749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE747C08217A9C560050D749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +85,12 @@
 		DE747C38217A9C8D0050D749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		DE747C3A217A9C8E0050D749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE747C3C217A9C8E0050D749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED4C51121E11B67006DABA2 /* paultoday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = paultoday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED4C51221E11B67006DABA2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		DED4C51521E11B67006DABA2 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		DED4C51621E11B67006DABA2 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		DED4C51921E11B67006DABA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DED4C51B21E11B67006DABA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590516DBB4532B29192AA163 /* Pods_NewBuild_Extension_Subspec.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +113,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE747C32217A9C8D0050D749 /* Messages.framework in Frameworks */,
-				32D13324CC14CDAD26C7FFC7 /* Pods_MessageExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED4C50E21E11B67006DABA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED4C51321E11B67006DABA2 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,9 +133,9 @@
 				DE747C06217A9C560050D749 /* NewBuild-Extension-Subspec */,
 				DE747C1F217A9C580050D749 /* NewBuild-Extension-SubspecTests */,
 				DE747C33217A9C8D0050D749 /* MessageExtension */,
+				DED4C51421E11B67006DABA2 /* paultoday */,
 				DE747C30217A9C8D0050D749 /* Frameworks */,
 				DE747C05217A9C560050D749 /* Products */,
-				E72DD8C8EF8D1DE32B41EB04 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +145,7 @@
 				DE747C04217A9C560050D749 /* NewBuild-Extension-Subspec.app */,
 				DE747C1C217A9C580050D749 /* NewBuild-Extension-SubspecTests.xctest */,
 				DE747C2F217A9C8D0050D749 /* MessageExtension.appex */,
+				DED4C51121E11B67006DABA2 /* paultoday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,8 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				DE747C31217A9C8D0050D749 /* Messages.framework */,
-				82569917D305146E1FA77FFC /* Pods_MessageExtension.framework */,
-				55E3B59AAEBF6F4DC00D289F /* Pods_NewBuild_Extension_Subspec.framework */,
+				DED4C51221E11B67006DABA2 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,15 +196,15 @@
 			path = MessageExtension;
 			sourceTree = "<group>";
 		};
-		E72DD8C8EF8D1DE32B41EB04 /* Pods */ = {
+		DED4C51421E11B67006DABA2 /* paultoday */ = {
 			isa = PBXGroup;
 			children = (
-				0CFC5E6E7C99F7AD86DBE2DE /* Pods-MessageExtension.debug.xcconfig */,
-				6E8509016D15054C2CE7B30B /* Pods-MessageExtension.release.xcconfig */,
-				69A83F9A9EA139F3F1C10237 /* Pods-NewBuild-Extension-Subspec.debug.xcconfig */,
-				1718BBEE973546D472C3990B /* Pods-NewBuild-Extension-Subspec.release.xcconfig */,
+				DED4C51521E11B67006DABA2 /* TodayViewController.h */,
+				DED4C51621E11B67006DABA2 /* TodayViewController.m */,
+				DED4C51821E11B67006DABA2 /* MainInterface.storyboard */,
+				DED4C51B21E11B67006DABA2 /* Info.plist */,
 			);
-			name = Pods;
+			path = paultoday;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,17 +214,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE747C25217A9C580050D749 /* Build configuration list for PBXNativeTarget "NewBuild-Extension-Subspec" */;
 			buildPhases = (
-				C2EEA5D97FFC97492131E66F /* [CP] Check Pods Manifest.lock */,
 				DE747C00217A9C560050D749 /* Sources */,
 				DE747C01217A9C560050D749 /* Frameworks */,
 				DE747C02217A9C560050D749 /* Resources */,
 				DE747C43217A9C8E0050D749 /* Embed App Extensions */,
-				2CF08265BB66E6FF7E170E9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				DE747C3E217A9C8E0050D749 /* PBXTargetDependency */,
+				DED4C51D21E11B67006DABA2 /* PBXTargetDependency */,
 			);
 			name = "NewBuild-Extension-Subspec";
 			productName = "NewBuild-Extension-Subspec";
@@ -237,7 +252,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE747C40217A9C8E0050D749 /* Build configuration list for PBXNativeTarget "MessageExtension" */;
 			buildPhases = (
-				1BF551E038E31C37AC88E14B /* [CP] Check Pods Manifest.lock */,
 				DE747C2B217A9C8D0050D749 /* Sources */,
 				DE747C2C217A9C8D0050D749 /* Frameworks */,
 				DE747C2D217A9C8D0050D749 /* Resources */,
@@ -250,6 +264,23 @@
 			productName = MessageExtension;
 			productReference = DE747C2F217A9C8D0050D749 /* MessageExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
+		};
+		DED4C51021E11B67006DABA2 /* paultoday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED4C52121E11B67006DABA2 /* Build configuration list for PBXNativeTarget "paultoday" */;
+			buildPhases = (
+				DED4C50D21E11B67006DABA2 /* Sources */,
+				DED4C50E21E11B67006DABA2 /* Frameworks */,
+				DED4C50F21E11B67006DABA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paultoday;
+			productName = paultoday;
+			productReference = DED4C51121E11B67006DABA2 /* paultoday.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -270,6 +301,9 @@
 					DE747C2E217A9C8D0050D749 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					DED4C51021E11B67006DABA2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = DE747BFF217A9C560050D749 /* Build configuration list for PBXProject "NewBuild-Extension-Subspec" */;
@@ -288,6 +322,7 @@
 				DE747C03217A9C560050D749 /* NewBuild-Extension-Subspec */,
 				DE747C1B217A9C580050D749 /* NewBuild-Extension-SubspecTests */,
 				DE747C2E217A9C8D0050D749 /* MessageExtension */,
+				DED4C51021E11B67006DABA2 /* paultoday */,
 			);
 		};
 /* End PBXProject section */
@@ -319,65 +354,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DED4C50F21E11B67006DABA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED4C51A21E11B67006DABA2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1BF551E038E31C37AC88E14B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MessageExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2CF08265BB66E6FF7E170E9E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NewBuild-Extension-Subspec/Pods-NewBuild-Extension-Subspec-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-Core-Full/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-Core/GTMSessionFetcher.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewBuild-Extension-Subspec/Pods-NewBuild-Extension-Subspec-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2EEA5D97FFC97492131E66F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewBuild-Extension-Subspec-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE747C00217A9C560050D749 /* Sources */ = {
@@ -406,6 +391,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DED4C50D21E11B67006DABA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0A600C21E1334A00E98926 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -418,6 +411,11 @@
 			isa = PBXTargetDependency;
 			target = DE747C2E217A9C8D0050D749 /* MessageExtension */;
 			targetProxy = DE747C3D217A9C8E0050D749 /* PBXContainerItemProxy */;
+		};
+		DED4C51D21E11B67006DABA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED4C51021E11B67006DABA2 /* paultoday */;
+			targetProxy = DED4C51C21E11B67006DABA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,6 +440,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				DE747C38217A9C8D0050D749 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		DED4C51821E11B67006DABA2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED4C51921E11B67006DABA2 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -563,13 +569,15 @@
 		};
 		DE747C26217A9C580050D749 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A83F9A9EA139F3F1C10237 /* Pods-NewBuild-Extension-Subspec.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ANB9W7R3P;
 				INFOPLIST_FILE = "NewBuild-Extension-Subspec/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-Subspec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,13 +586,15 @@
 		};
 		DE747C27217A9C580050D749 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1718BBEE973546D472C3990B /* Pods-NewBuild-Extension-Subspec.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ANB9W7R3P;
 				INFOPLIST_FILE = "NewBuild-Extension-Subspec/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-Subspec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,7 +608,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ANB9W7R3P;
 				INFOPLIST_FILE = "NewBuild-Extension-SubspecTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-SubspecTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -613,7 +627,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ANB9W7R3P;
 				INFOPLIST_FILE = "NewBuild-Extension-SubspecTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-SubspecTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,13 +641,16 @@
 		};
 		DE747C41217A9C8E0050D749 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CFC5E6E7C99F7AD86DBE2DE /* Pods-MessageExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ANB9W7R3P;
 				INFOPLIST_FILE = MessageExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-Subspec.MessageExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -639,14 +660,55 @@
 		};
 		DE747C42217A9C8E0050D749 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E8509016D15054C2CE7B30B /* Pods-MessageExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ANB9W7R3P;
 				INFOPLIST_FILE = MessageExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-Subspec.MessageExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DED4C51F21E11B67006DABA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ANB9W7R3P;
+				INFOPLIST_FILE = paultoday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-Subspec.paultoday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED4C52021E11B67006DABA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ANB9W7R3P;
+				INFOPLIST_FILE = paultoday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.NewBuild-Extension-Subspec.paultoday";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -688,6 +750,15 @@
 			buildConfigurations = (
 				DE747C41217A9C8E0050D749 /* Debug */,
 				DE747C42217A9C8E0050D749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED4C52121E11B67006DABA2 /* Build configuration list for PBXNativeTarget "paultoday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED4C51F21E11B67006DABA2 /* Debug */,
+				DED4C52021E11B67006DABA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

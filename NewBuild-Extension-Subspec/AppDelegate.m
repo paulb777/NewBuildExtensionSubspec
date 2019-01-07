@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <GoogleUtilities/GULAppEnvironmentUtil.h>
+//#import <GoogleUtilities/GULNSData+zlib.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+    NSLog(@"didFinishLaunching app");
+  NSLog(@"System version from GULUtilities Environment %@", [GULAppEnvironmentUtil systemVersion]);
+  //  [GULGzip  paul];
   return YES;
 }
 
